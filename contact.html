@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <meta charset="utf-8" />
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
+
 <body>
-    <header>
-       <section id="name">Thomas Joseph Stone</section>
-       <section id="about">About</section>
-       <section id="portfolio">Portfolio</section>
-       <section id="contact">Contact</section>
-    </header>
+        <header class="header">
+                <div class="container">
+                      <div class="full-name">
+                      <a id="full-name" href= "#">Thomas J. Stone</a>
+                      </div>
+                      <div class="page-links">
+                      <a id="contact-link" href="contact.html">Contact</a>
+                      <a id="portfolio-link" href="portfolio.html">Portfolio</a>
+                      <a id="about-link" href="index.html">About</a>
+                      </div>
+                    </div>
+                </div>
+              </header>
     <div class="wrapper">
     <section id="main-content">
         <div id="contact-input">
@@ -20,16 +28,22 @@
         <br>
         <form id="contact-boxes">
             Name:<br>
-            <input type="text" name="name"><br>
+            <input id="input-1" type="text" name="name"><br><br>
             Email:<br>
-            <input type="text" name="email"><br>
+            <input id="input-2" type="text" name="email"><br><br>
             Message:<br>
-            <input type="text" name="message"><br>
-            <input type="submit" value="Submit">
+            <textarea name="textarea">
+            </textarea>
+            <input id="button" type="submit" value="Submit"><br>
         </form>
     </section>
     <footer>
-            <section id="copyright">&copy; 2018 Thomas Joseph Stone</section>
+            <div class="footer-container">
+                    <section id="copyright1">
+                      <div id="copytext">&copy; 2018 Thomas Joseph Stone</div>
+                    </section>
+            </div>  
+    </footer>
     </footer>
     </div>
 </body>
